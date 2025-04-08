@@ -27,7 +27,16 @@ Score = -0.6 × (CPI beta) -0.4 × (Credit Spread beta) +0.5 × (GDP Growth beta
 
 Only statistically significant betas (p < 0.05) were used.
 
-macro-sensitivity-financials/ ├── data_analysis.R # Core regression modeling and diagnostics ├── scoring.R # Scoring logic and macro-resilience ranking ├── clean_data.R # Primary data cleaning pipeline ├── clean_data_2.R # Supplemental data preprocessing ├── wrds.R # WRDS connection and firm data retrieval ├── fred_data.py # Macro data extraction from the FRED API (Python) ├── data/ # Folder containing cleaned and raw data files └── README.md # Project overview and documentation
+## Repository Structure
+
+- **`data_analysis.R`** – Core regression modeling and diagnostics 
+- **`scoring.R `** – Scoring logic and ranking
+- **`clean_data.R`** – Primary data cleaning pipeline
+- **`clean_data_2`** – Supplemental cleaning scripts
+- **`wrds.R`** – WRDS query and return calculations
+- **`fred_data.py`** – FRED API data ingestion (Python)
+- **`data/`** – A directory containing cleaned and raw datasets used in the analysis
+- **`README.md`** – This document
 
 ## Key Findings
 
